@@ -1,6 +1,6 @@
 # Hiring Shifts Dynamic Programming Walkthrough
 
-Note: This project offers a clear example of the hiring shifts problem. Please ensure that `ocaml` is installed correctly before running it. Ellohay!
+Note: This project offers a clear example of the hiring shifts problem. Please ensure that `ocaml` is installed correctly before running it.
 
 1. Open a terminal and move into the `hiringShifts` directory.
 2. Run `dune build hiringShifts.ml` to generate the `_build` folder.
