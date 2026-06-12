@@ -1,19 +1,24 @@
 # Hiring Shifts
 
-This repository contains an OCaml dynamic programming solution to a hiring shifts problem. The program reads hiring costs from standard input, computes the minimum total cost, and prints the selected hire durations in order.
+This project provides an OCaml dynamic programming solution to the hiring shifts problem.
 
 ## Prerequisites
 
-- Install OCaml.
+- OCaml
+- `dune`
 
-## Build and Run
+## Build and run
 
-1. Open a terminal and change to the `hiringShifts` directory.
-2. Run `dune build hiringShifts.ml` to generate the `_build` directory.
-3. Run `dune exec ./hiringShifts.exe`.
-4. Enter input through standard input.
+1. Open a terminal in the `hiringShifts` directory.
+2. Build the project with `dune`.
+3. Run the program and provide input through standard input.
 
-## Example Input
+```sh
+dune build
+dune exec ./hiringShifts.exe
+```
+
+## Example input
 
 ```text
 4
@@ -23,21 +28,29 @@ This repository contains an OCaml dynamic programming solution to a hiring shift
 6
 ```
 
-## Example Output
+## Example output
 
 ```text
 15
 2 2
 ```
 
-## Input Format
+## Input format
 
-The first line gives the number of days to cover. Each following row gives the hiring cost for a 1 day, 2 day, or 3 day hire that starts on that day. Shorter rows represent unavailable options for later durations.
+The first line contains the number of days to cover.
 
-The columns represent hire durations, and each row represents a starting day. For example, `5` is the cost of a 1 day hire starting on day 1, and `16` is the cost of a 3 day hire starting on day 1.
+Each remaining line contains one to three integers. Each integer gives the hiring cost for a shift that lasts 1, 2, or 3 days. If a line omits one or more values, the program treats those shift lengths as unavailable for that day.
 
-## Output Format
+In the example input, `5 8 16` means the first day offers a cost of `5` for a 1 day shift, `8` for a 2 day shift, and `16` for a 3 day shift. A line such as `6` means only a 1 day shift is available for that day.
 
-The first output line gives the minimum total cost. The second line lists the chosen hire durations in order.
+## Output format
 
-In the example output, `2 2` means the solution chooses a 2 day hire starting on day 1 and another 2 day hire starting on day 3, for a total cost of `15`.
+The program prints the minimum total cost on the first line.
+
+The program prints the sequence of chosen shift lengths on the second line.
+
+In the example output, `2 2` means the program chooses a 2 day shift starting on day 1 and another 2 day shift starting on day 3, for a total cost of `15`.
+
+## Algorithm notes
+
+The algorithm uses dynamic programming to compare the lowest total hiring cost across the available 1 day, 2 day, and 3 day shift choices. It runs in `O(n)` time, where `n` is the number of days.
