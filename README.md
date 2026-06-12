@@ -10,11 +10,11 @@ This project provides an OCaml dynamic programming solution to the hiring shifts
 ## Build and run
 
 1. Open a terminal in the `hiringShifts` directory.
-2. Build the executable.
+2. Build the project with `dune`.
 3. Run the program and provide input through standard input.
 
 ```sh
-dune build hiringShifts.ml
+dune build
 dune exec ./hiringShifts.exe
 ```
 
@@ -53,6 +53,6 @@ In the example output, `2 2` means the solution selects a 2 day shift starting o
 
 ## Algorithm notes
 
-The algorithm uses dynamic programming and runs in `O(n)` time, where `n` is the number of days. The implementation considers shifts that last from 1 day to 3 days.
+The algorithm uses dynamic programming to compare the lowest total hiring cost across the available 1 day, 2 day, and 3 day shift choices. It runs in `O(n)` time, where `n` is the number of days.
 
 
