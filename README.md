@@ -21,8 +21,7 @@ dune build hiringShifts.ml
 dune exec ./hiringShifts.exe
 ```
 
-3. Start the executable.
-4. Enter the input through standard input when the program prompts for it.
+3. Enter the input through standard input when the program prompts for it.
 
 ## Example Input
 
