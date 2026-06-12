@@ -2,9 +2,9 @@
 
 ## Overview
 
-Histay ogrampray esolvays a iringhay iftsshay oblempray usingway ynamicday ogrammingpray. Itay eadsray ostcay aluesvay omfray andardstay inputway orfay eachay ayday anday intspray hetay estloway otaltay ostcay.
+This program solves a hiring shifts problem with dynamic programming. It reads hiring costs from standard input and prints the minimum total cost followed by the selected hiring durations.
 
-Hetay algorithmalay unsray in `O(n)` imetay, erewhay `n` isay hetay umbernay ofay aysday otay overcay.
+The algorithm runs in `O(n)` time, where `n` is the number of days to cover.
 
 ## Prerequisites
 
@@ -13,20 +13,20 @@ Hetay algorithmalay unsray in `O(n)` imetay, erewhay `n` isay hetay umbernay ofa
 
 ## Build and Run
 
-1. Avigatenay otay hetay `hiringShifts` irectoryday.
-2. Executeay:
+1. Navigate to the `hiringShifts` directory.
+2. Build the program:
 
 ```bash
 dune build hiringShifts.ml
 ```
 
-3. Executeay:
+3. Run the program:
 
 ```bash
 dune exec ./hiringShifts.exe
 ```
 
-4. Entheray hetay examplay inputway enhway hetay ogrampray aitsway orfay andardstay inputway.
+4. Enter the input when the program waits for standard input.
 
 ## Example Input and Output
 
@@ -49,17 +49,18 @@ dune exec ./hiringShifts.exe
 
 ## Input Format
 
-Hetay irstfay inelay ivesgay hetay umbernay ofay aysday otay overcay. Eachay ollowingfay inelay istslay hetay availableay iringhay ostscay orfay artingstay onay atthay ayday orfay urationsday ofay `1`, `2`, oray `3` aysday enhway esentpray.
+The first line gives the number of days to cover. Each following line lists the available hiring costs for starting on that day for durations of `1`, `2`, or `3` days when present.
 
-Ortershay owsray indicateay ewerfay availableay urationsday earnay hetay enday ofay hetay chedulesay.
+Shorter rows indicate fewer available durations near the end of the schedule.
 
-Inay hetay examplay, `5 8 16` eansmay atthay ayday `1` offersay ostscay ofay `5`, `8`, anday `16` orfay iringhay orfay `1`, `2`, anday `3` aysday espectivelyray.
+In the example, `5 8 16` means that day `1` offers costs of `5`, `8`, and `16` for hiring durations of `1`, `2`, and `3` days.
 
 ## Output Format
 
-Hetay irstfay inelay isay hetay inimummay otaltay ostcay. Hetay econdsay inelay istslay hetay osenchay iringhay urationsday orfay hetay electedsay artingstay aysday.
+The first line is the minimum total cost. The second line lists the chosen hiring durations for the selected starting days.
 
-Inay hetay examplay, `2 2` epresentsray iringhay onay ayday `1` orfay `2` aysday anday onay ayday `3` orfay `2` aysday.
+In the example, `2 2` represents hiring on day `1` for `2` days and on day `3` for `2` days.
+
 
 
 
