@@ -1,17 +1,17 @@
 # A Dynamic Programming Solution for the Hiring Shifts Problem
 
-Histay ogram-pray eads-ray iring-hay osts-cay orfay `1`-, `2`-, anday `3`-ayday iring-hay optionsay anday omputes-cay ethay inimum-may otal-tayોસ્ટ-cay anday ethay osen-chay iring-hay urations-day.
+This program reads hiring costs for `1`, `2`, and `3` day hiring options and computes the minimum total cost and the chosen hiring durations.
 
-## Erequisitespray
+## Prerequisites
 
-Installay OCamlay ebayforefay unningray ethay ogrampray.
+Install OCaml before running the program.
 
-## Uildbay anday unray
+## Build and run
 
-1. Avigatenay otay ethay `hiringShifts` irectoryday inay away erminaltay.
-2. Unray `dune build hiringShifts.ml`.
-3. Unray `dune exec ./hiringShifts.exe`.
-4. Enteray ethay exampleay inputay elowbay enwhay ethay ogrampray aitsway orfay inputay.
+1. Navigate to the `hiringShifts` directory in a terminal.
+2. Run `dune build hiringShifts.ml`.
+3. Run `dune exec ./hiringShifts.exe`.
+4. Enter the example input shown below when the program waits for input.
 
 ## Example input
 
@@ -32,24 +32,24 @@ Installay OCamlay ebayforefay unningray ethay ogrampray.
 
 ## Input format
 
-Ethay irstfay inelay isay ethay umbernay ofay aysday, `n`.
+The first line gives the number of days, `n`.
 
-- Eachay ofay ethay extnay `n` ineslay orrespondscay otay away artingstay ayday.
-- Ethay irstfay, econdsay, anday irdthay aluesvay onay away inelay epresentray ethay ostscay ofay iringhay orfay `1`, `2`, anday `3` aysday enwhay osethay optionsay areay availableay.
-- Aterlay owsray ancay avehay ewerfay aluesvay enwhay ongerlay iringhay urationsday areay onay ongerlay ossiblepay.
+- Each of the next `n` lines corresponds to a starting day.
+- The first, second, and third values on a line give the costs of hiring for `1`, `2`, and `3` days when those options are available.
+- Later rows can contain fewer values when longer hiring durations are no longer possible.
 
-Orfay exampleay, `5 8 16` eansmay ethay ogrampray ancay oosechay away `1` ayday irehay orfay `5`, away `2` ayday irehay orfay `8`, oray away `3` ayday irehay orfay `16`.
+For example, `5 8 16` means the program can choose a `1` day hire for `5`, a `2` day hire for `8`, or a `3` day hire for `16`.
 
-Ifay ethay ogrampray electssay ethay irdthay olumncay aluevay onay ayday `1`, atthay irehay overscay eethray aysday. Ethay extnay irehay artsstay onay ethay emainingray uncovereday ayday.
+If the program selects the third column value on day `1`, that hire covers three days. The next hire starts on the remaining uncovered day.
 
 ## Output format
 
-Ethay irstfay inelay ofay outputay isay ethay inimummay otaltay ostcay.
+The first line of output gives the minimum total cost.
 
-Ethay econdsay inelay istslay ethay urationsday osenchay orfay eachay irehay inay ethay optimalay olutionsay. Orfay exampleay, `2 2` eansmay ethay ogrampray ireshay onay ayday `1` orfay `2` aysday anday onay ayday `3` orfay `2` aysday, orfay away otaltay ostcay ofay `15`.
+The second line lists the durations chosen for each hire in the optimal solution. For example, `2 2` means the program hires on day `1` for `2` days and on day `3` for `2` days, for a total cost of `15`.
 
 ## Complexity
 
-Ethay algorithmay unsray inay `O(n)` imetay, erewhay `n` isay ethay umbernay ofay aysday otay overcay.
+The algorithm runs in `O(n)` time, where `n` is the number of days to cover.
 
 
