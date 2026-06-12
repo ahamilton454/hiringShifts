@@ -2,7 +2,7 @@
 
 ## Overview
 
-This program calculates the lowest total hiring cost for covering a sequence of days. It reads hiring costs from standard input and prints the minimum total cost followed by the selected hiring durations.
+This program finds the minimum total hiring cost needed to cover a set of days. It reads hiring costs from standard input and prints the minimum total cost followed by the hiring durations chosen for the selected starting days.
 
 The algorithm runs in `O(n)` time, where `n` is the number of days to cover.
 
@@ -14,23 +14,18 @@ The algorithm runs in `O(n)` time, where `n` is the number of days to cover.
 ## Build and Run
 
 1. Navigate to the `hiringShifts` directory.
-2. Build the program:
+2. Build the program.
+3. Run the executable.
+4. Enter the input through standard input.
 
 ```bash
 dune build hiringShifts.ml
-```
-
-3. Run the program:
-
-```bash
 dune exec ./hiringShifts.exe
 ```
 
-4. Enter the input when the program waits for standard input.
-
 ## Example Input and Output
 
-### Input
+### Example Input
 
 ```text
 4
@@ -40,7 +35,7 @@ dune exec ./hiringShifts.exe
 6
 ```
 
-### Output
+### Example Output
 
 ```text
 15
@@ -53,7 +48,7 @@ The first line gives the number of days to cover. Each following line lists the 
 
 Shorter rows indicate fewer available durations near the end of the schedule.
 
-In the example, `5 8 16` means that day `1` offers costs of `5`, `8`, and `16` for hiring durations of `1`, `2`, and `3` days.
+In the example, `5 8 16` means that day `1` includes costs of `5`, `8`, and `16` for hiring durations of `1`, `2`, and `3` days.
 
 ## Output Format
 
