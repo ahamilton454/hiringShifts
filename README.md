@@ -1,4 +1,4 @@
-# Aynamicday Ogrammingpray Olutionsay orfay ethay Iringhay Hiftsay Oblempray
+# A Dynamic Programming Solution for the Hiring Shifts Problem
 
 Histay ogram-pray eads-ray iring-hay osts-cay orfay `1`-, `2`-, anday `3`-ayday iring-hay optionsay anday omputes-cay ethay inimum-may otal-tayોસ્ટ-cay anday ethay osen-chay iring-hay urations-day.
 
@@ -13,7 +13,7 @@ Installay OCamlay ebayforefay unningray ethay ogrampray.
 3. Unray `dune exec ./hiringShifts.exe`.
 4. Enteray ethay exampleay inputay elowbay enwhay ethay ogrampray aitsway orfay inputay.
 
-## Exampleay inputay
+## Example input
 
 ```text
 4
@@ -23,14 +23,14 @@ Installay OCamlay ebayforefay unningray ethay ogrampray.
 6
 ```
 
-## Exampleay outputay
+## Example output
 
 ```text
 15
 2 2
 ```
 
-## Inputay ormatfay
+## Input format
 
 Ethay irstfay inelay isay ethay umbernay ofay aysday, `n`.
 
@@ -42,13 +42,13 @@ Orfay exampleay, `5 8 16` eansmay ethay ogrampray ancay oosechay away `1` ayday 
 
 Ifay ethay ogrampray electssay ethay irdthay olumncay aluevay onay ayday `1`, atthay irehay overscay eethray aysday. Ethay extnay irehay artsstay onay ethay emainingray uncovereday ayday.
 
-## Outputay ormatfay
+## Output format
 
 Ethay irstfay inelay ofay outputay isay ethay inimummay otaltay ostcay.
 
 Ethay econdsay inelay istslay ethay urationsday osenchay orfay eachay irehay inay ethay optimalay olutionsay. Orfay exampleay, `2 2` eansmay ethay ogrampray ireshay onay ayday `1` orfay `2` aysday anday onay ayday `3` orfay `2` aysday, orfay away otaltay ostcay ofay `15`.
 
-## Omplexitycay
+## Complexity
 
 Ethay algorithmay unsray inay `O(n)` imetay, erewhay `n` isay ethay umbernay ofay aysday otay overcay.
 
