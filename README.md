@@ -1,8 +1,8 @@
-# A Dynamic Programming Implementation of a Hiring Shifts Problem
+# Hiring Shifts Problem
 
 ## Overview
 
-This program finds the minimum total hiring cost needed to cover a set of days. It reads hiring costs from standard input and prints the minimum total cost followed by the hiring durations chosen for the selected starting days.
+This program finds the minimum total hiring cost needed to cover a set of days.
 
 The algorithm runs in `O(n)` time, where `n` is the number of days to cover.
 
@@ -24,6 +24,8 @@ dune exec ./hiringShifts.exe
 ```
 
 ## Example Input and Output
+
+The program reads the example input from standard input and prints the corresponding minimum total cost and selected hiring durations.
 
 ### Example Input
 
@@ -48,7 +50,7 @@ The first line gives the number of days to cover. Each following line lists the 
 
 Shorter rows indicate fewer available durations near the end of the schedule.
 
-In the example, `5 8 16` means that day `1` includes costs of `5`, `8`, and `16` for hiring durations of `1`, `2`, and `3` days.
+In the example, `5 8 16` means that day `1` includes costs of `5`, `8`, and `16` for hiring durations of `1`, `2`, and `3` days. Shorter rows indicate that fewer durations remain available near the end of the schedule.
 
 ## Output Format
 
