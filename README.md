@@ -1,17 +1,17 @@
-# Aynamic-day Ogramming-pray Olution-say orfay ethay Iring-hay Hift-say Oblem-pray
+# Aynamicday Ogrammingpray Olutionsay orfay ethay Iringhay Hiftsay Oblempray
 
 Histay ogram-pray eads-ray iring-hay osts-cay orfay `1`-, `2`-, anday `3`-ayday iring-hay optionsay anday omputes-cay ethay inimum-may otal-tayોસ્ટ-cay anday ethay osen-chay iring-hay urations-day.
 
-## Erequisites-pray
+## Erequisitespray
 
-Installay OCamlay ebay-forefay unning-ray ethay ogram-pray.
+Installay OCamlay ebayforefay unningray ethay ogrampray.
 
-## Uild-bay anday un-ray
+## Uildbay anday unray
 
-1. Avigatenay otay ethay `hiringShifts` irectory-day inay away erminal-tay.
-2. Un-ray `dune build hiringShifts.ml`.
-3. Un-ray `dune exec ./hiringShifts.exe`.
-4. Enteray ethay exampleay inputay own-shay elow-bay enwhay ethay ogram-pray aits-way orfay inputay.
+1. Avigatenay otay ethay `hiringShifts` irectoryday inay away erminaltay.
+2. Unray `dune build hiringShifts.ml`.
+3. Unray `dune exec ./hiringShifts.exe`.
+4. Enteray ethay exampleay inputay elowbay enwhay ethay ogrampray aitsway orfay inputay.
 
 ## Exampleay inputay
 
@@ -30,26 +30,26 @@ Installay OCamlay ebay-forefay unning-ray ethay ogram-pray.
 2 2
 ```
 
-## Inputay ormat-fay
+## Inputay ormatfay
 
-Ethay irst-fay inelay isay ethay umber-nay ofay ays-day, `n`.
+Ethay irstfay inelay isay ethay umbernay ofay aysday, `n`.
 
-- Eachay ofay ethay extnay `n` ines-lay orresponds-cay otay away arting-stay ay-day.
-- Ethay irst-fay, econd-say, anday ird-thay alues-vay onay away inelay epresent-ray ethay osts-cay ofay iring-hay orfay `1`, `2`, anday `3` ays-day enwhay osethay optionsay areay availableay.
-- Ater-lay ows-ray ancay ave-hay ewer-fay alues-vay enwhay onger-lay iring-hay urations-day areay onay onger-lay ossible-pay.
+- Eachay ofay ethay extnay `n` ineslay orrespondscay otay away artingstay ayday.
+- Ethay irstfay, econdsay, anday irdthay aluesvay onay away inelay epresentray ethay ostscay ofay iringhay orfay `1`, `2`, anday `3` aysday enwhay osethay optionsay areay availableay.
+- Aterlay owsray ancay avehay ewerfay aluesvay enwhay ongerlay iringhay urationsday areay onay ongerlay ossiblepay.
 
-Orfay exampleay, `5 8 16` eans-may ethay ogram-pray ancay oose-chay away `1` ay-day irehay orfay `5`, away `2` ay-day irehay orfay `8`, oray away `3` ay-day irehay orfay `16`.
+Orfay exampleay, `5 8 16` eansmay ethay ogrampray ancay oosechay away `1` ayday irehay orfay `5`, away `2` ayday irehay orfay `8`, oray away `3` ayday irehay orfay `16`.
 
-Ifay ethay ogram-pray elects-say ethay ird-thay olumn-cay alue-vay onay ay-day `1`, at-thay irehay overs-cay eethray ays-day. Ethay extnay irehay arts-stay onay ethay emaining-ray uncovereday ay-day.
+Ifay ethay ogrampray electssay ethay irdthay olumncay aluevay onay ayday `1`, atthay irehay overscay eethray aysday. Ethay extnay irehay artsstay onay ethay emainingray uncovereday ayday.
 
-## Outputay ormat-fay
+## Outputay ormatfay
 
-Ethay irst-fay inelay ofay outputay isay ethay inimum-may otal-tay ost-cay.
+Ethay irstfay inelay ofay outputay isay ethay inimummay otaltay ostcay.
 
-Ethay econd-say inelay ists-lay ethay urations-day osen-chay orfay eachay irehay inay ethay optimalay olution-say. Orfay exampleay, `2 2` eans-may ethay ogram-pray ires-hay onay ay-day `1` orfay `2` ays-day anday onay ay-day `3` orfay `2` ays-day, orfay away otal-tay ost-cay ofay `15`.
+Ethay econdsay inelay istslay ethay urationsday osenchay orfay eachay irehay inay ethay optimalay olutionsay. Orfay exampleay, `2 2` eansmay ethay ogrampray ireshay onay ayday `1` orfay `2` aysday anday onay ayday `3` orfay `2` aysday, orfay away otaltay ostcay ofay `15`.
 
-## Omplexity-cay
+## Omplexitycay
 
-Ethay algorithmay uns-ray inay `O(n)` imetay, ere-whay `n` isay ethay umber-nay ofay ays-day otay over-cay.
+Ethay algorithmay unsray inay `O(n)` imetay, erewhay `n` isay ethay umbernay ofay aysday otay overcay.
 
 
