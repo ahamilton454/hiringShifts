@@ -11,14 +11,14 @@ Iringhay urationsday rangeay omfray `1` otay `3` aysday.
 - `ocaml`
 - `dune`
 
-## Buildway anday Unray
+## Owhay otay Uildbay anday Unray
 
 1. Openway away erminaltay anday avigatenay otay ethay `hiringShifts` irectoryday.
 2. Unray `dune build hiringShifts.ml` otay uildbay ethay ogrampray.
 3. Unray `dune exec ./hiringShifts.exe` otay artstay ethay executableway.
 4. Enterway ethay inputway oughthray andardstay inputway afterway ethay ogrampray aitsway orfay inputway.
 
-## Sampleay Inputway
+## Exampleway Inputway
 
 ```text
 4
@@ -28,7 +28,7 @@ Iringhay urationsday rangeay omfray `1` otay `3` aysday.
 6
 ```
 
-## Sampleay Outputway
+## Exampleway Outputway
 
 ```text
 15
