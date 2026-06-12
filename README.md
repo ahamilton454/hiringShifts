@@ -1,4 +1,4 @@
-# Hiring Shifts Problem
+# A Dynamic Programming Implementation of a Hiring Shifts Problem
 
 ## Overview
 
@@ -50,7 +50,7 @@ The first line gives the number of days to cover. Each following line lists the 
 
 Shorter rows indicate fewer available durations near the end of the schedule.
 
-In the example, `5 8 16` means that day `1` includes costs of `5`, `8`, and `16` for hiring durations of `1`, `2`, and `3` days. Shorter rows indicate that fewer durations remain available near the end of the schedule.
+In the example, `5 8 16` means that day `1` includes costs of `5`, `8`, and `16` for hiring durations of `1`, `2`, and `3` days.
 
 ## Output Format
 
