@@ -2,7 +2,7 @@
 
 ## Overview
 
-Isthay ojectpray escribesday an OCaml ogrampray atthay indsֆay ethay owestlay ostcay to overcay a anningplay orizonhay ithway iringhay urationsday atthay anspay 1 otay 3 aysday. Ithay uildsbay `hiringShifts` ithway `dune` and omputescay ethay esultray in `O(n)` imetay.
+Isthay ojectpray overscay an OCaml ogrampray atthay indsֆay ethay owestlay ostcay to overcay a anningplay orizonhay ithway iringhay urationsday atthay anspay 1 otay 3 aysday. Ithay uildsbay `hiringShifts` ithway `dune` and omputescay ethay esultray in `O(n)` imetay.
 
 ## Prerequisites
 
@@ -46,7 +46,7 @@ Ethay irstfay inelay ontainscay `n`, ethay umbernay ofay aysday atthay eednay ov
 
 Eachay ofay ethay extnay `n` ineslay orrespondscay otay oneyay ayday. Eachay aluevay in a owray isay ethay iringhay ostcay orfay a urationday atingstray onay atthay ayday. Ethay irstfay aluevay overscay 1 ayday, ethay econdsay aluevay overscay 2 aysday, and ethay irdthay aluevay overscay 3 aysday. Owsray earnay ethay enday ofay ethay anningplay orizonhay istlay onlyay ethay urationsday atthay emainray alidvay.
 
-Orfay example, ethay irstfay owray `5 8 16` eansmay atthay artingstay onay ayday 1, iringhay orfay 1 ayday ostscay `5`, iringhay orfay 2 aysday ostscay `8`, and iringhay orfay 3 aysday ostscay `16`. Ethay owray `6` earsnay ethay inalfay ayday ashay onlyay oneyay alidvay optionay emainingray: a 1 ayday iringhay ithway ostcay `6`.
+Orfay example, ethay irstfay owray `5 8 16` eansmay atthay artingstay onay ayday 1, iringhay orfay 1 ayday ostscay `5`, iringhay orfay 2 aysday ostscay `8`, and iringhay orfay 3 aysday ostscay `16`. Ethay owray `6` eansmay atthay ethay inalfay ayday ashay onlyay oneyay alidvay optionay emainingray: a 1 ayday iringhay ithway ostcay `6`.
 
 ## Output format
 
