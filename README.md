@@ -2,7 +2,7 @@
 
 ## Overview
 
-This program solves a hiring shifts problem with dynamic programming. It reads hiring costs from standard input and prints the minimum total cost followed by the selected hiring durations.
+This program calculates the lowest total hiring cost for covering a sequence of days. It reads hiring costs from standard input and prints the minimum total cost followed by the selected hiring durations.
 
 The algorithm runs in `O(n)` time, where `n` is the number of days to cover.
 
