@@ -1,6 +1,6 @@
 # A Dynamic Programming Solution for the Hiring Shifts Problem
 
-This program reads hiring costs for `1`, `2`, and `3` day hiring options and computes the minimum total cost and the chosen hiring durations.
+This program reads hiring costs for `1`, `2`, and `3` day hiring options. It computes the minimum total cost and the chosen hiring durations.
 
 ## Prerequisites
 
@@ -11,7 +11,7 @@ Install OCaml before running the program.
 1. Navigate to the `hiringShifts` directory in a terminal.
 2. Run `dune build hiringShifts.ml`.
 3. Run `dune exec ./hiringShifts.exe`.
-4. Enter the example input below when the program waits for input.
+4. Enter the example input shown below when the program waits for input.
 
 ## Example input
 
@@ -40,7 +40,7 @@ The first line is the number of days, `n`.
 
 For example, `5 8 16` means the program can choose a `1` day hire for `5`, a `2` day hire for `8`, or a `3` day hire for `16`.
 
-If the program selects the third column value on day `1`, that hire covers three days. The next hire therefore waits until the remaining uncovered day.
+If the program selects the third column value on day `1`, that hire covers three days. The next hire starts on the remaining uncovered day.
 
 ## Output format
 
