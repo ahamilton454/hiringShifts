@@ -14,8 +14,14 @@ Hiring durations range from `1` to `3` days.
 ## Build and Run
 
 1. Open a terminal and navigate to the `hiringShifts` directory.
-2. Run `dune build hiringShifts.ml` to build the program.
-3. Run `dune exec ./hiringShifts.exe` to start the executable.
+2. Run the build and execution commands.
+
+```sh
+dune build hiringShifts.ml
+dune exec ./hiringShifts.exe
+```
+
+3. Start the executable.
 4. Enter the input through standard input when the program prompts for it.
 
 ## Example Input
