@@ -1,8 +1,8 @@
-# Iringhay Iftsshay: an OCaml dynamic programming solution
+# Anay OCaml ynamicday ogrammingpray olutionsay orfay ethay iringhay iftsshay oblempray
 
 ## Overview
 
-Isthay ojectpray escribesday an OCaml ogrampray atthay indsֆay ethay owestlay ostcay to overcay a anningplay orizonhay ithway iringhay urationsday atthay anspay 1 otay 3 aysday. Ithay uildsbay ethay ecutableexay `hiringShifts` ithway `dune`, eadsray omfray andardstay input, and omputescay ethay esultray in `O(n)` imetay.
+Isthay ojectpray escribesday an OCaml ogrampray atthay indsֆay ethay owestlay ostcay to overcay a anningplay orizonhay ithway iringhay urationsday atthay anspay 1 otay 3 aysday. Ithay uildsbay `hiringShifts` ithway `dune` and omputescay ethay esultray in `O(n)` imetay.
 
 ## Prerequisites
 
@@ -11,15 +11,15 @@ Isthay ojectpray escribesday an OCaml ogrampray atthay indsֆay ethay owestlay o
 
 ## Build and run instructions
 
-Opeay ethay ojectpray irectoryday, uildbay ethay ecutableexay, enthay unray itay. Ethay ogrampray aitsway orfay input omfray andardstay input.
+Opeay ethay ojectpray irectoryday, uildbay ethay ogrampray, and enthay unray itay. Ethay ogrampray eadsray omfray andardstay input.
 
 1. Avigatenay otay ethay `hiringShifts` irectoryday.
-2. Executeway `dune build hiringShifts.ml`.
+2. Executeway `dune build`.
 3. Executeway `dune exec ./hiringShifts.exe`.
 4. Enteray ethay input aluesvay.
 
 ```sh
-dune build hiringShifts.ml
+dune build
 dune exec ./hiringShifts.exe
 ```
 
@@ -44,9 +44,9 @@ dune exec ./hiringShifts.exe
 
 Ethay irstfay inelay ontainscay `n`, ethay umbernay ofay aysday atthay eednay overagecay. Iringhay urationsday anscay anspay omfray 1 ayday otay 3 aysday.
 
-Eachay ofay ethay extnay `n` ineslay orrespondscay otay oneyay ayday. Eachay aluevay in a owray isay ethay iringhay ostcay orfay a urationday atingstray onay atthay ayday. Ethay irstfay aluevay overscay 1 ayday, ethay econdsay aluevay overscay 2 aysday, and ethay irdthay aluevay overscay 3 aysday. Orthershay owsray earnay ethay enday ofay ethay anningplay orizonhay indicateay atthay onlyay ethay urationsday atthay emainray alidvay appearay.
+Eachay ofay ethay extnay `n` ineslay orrespondscay otay oneyay ayday. Eachay aluevay in a owray isay ethay iringhay ostcay orfay a urationday atingstray onay atthay ayday. Ethay irstfay aluevay overscay 1 ayday, ethay econdsay aluevay overscay 2 aysday, and ethay irdthay aluevay overscay 3 aysday. Owsray earnay ethay enday ofay ethay anningplay orizonhay istlay onlyay ethay urationsday atthay emainray alidvay.
 
-Orfay example, ethay irstfay owray `5 8 16` eansmay atthay artingstay onay ayday 1, iringhay orfay 1 ayday ostscay `5`, iringhay orfay 2 aysday ostscay `8`, and iringhay orfay 3 aysday ostscay `16`. Ethay owray `6` earsnay ethay inalfay ayday ashay onlyay oneyay alidvay optionay emainingray: a 1-ayday iringhay ithway ostcay `6`.
+Orfay example, ethay irstfay owray `5 8 16` eansmay atthay artingstay onay ayday 1, iringhay orfay 1 ayday ostscay `5`, iringhay orfay 2 aysday ostscay `8`, and iringhay orfay 3 aysday ostscay `16`. Ethay owray `6` earsnay ethay inalfay ayday ashay onlyay oneyay alidvay optionay emainingray: a 1 ayday iringhay ithway ostcay `6`.
 
 ## Output format
 
