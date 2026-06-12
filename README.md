@@ -1,33 +1,24 @@
-# A Dynamic Programming Implementation of a Hiring Shifts Problem
+# Aynamicday Ogrammingpray Implementationway ofay away Iringhay Iftsshay Oblempray
 
-## Overview
+## Overviewway
 
-This program finds the minimum total hiring cost needed to cover a set of days.
+Isthay ojectpray containsay anway OCamlay ynamicday ogrammingpray implementationway ofay ethay iringhay iftsshay oblempray. Ethay ogrampray calculatesay ethay minimumway otaltay iringhay ostcay neededay otay overcay away etsay ofay aysday inway `O(n)` imetay, erewhay `n` isway ethay numberway ofay aysday.
 
-The algorithm runs in `O(n)` time, where `n` is the number of days to cover.
+Iringhay urationsday rangeay omfray `1` otay `3` aysday.
 
-## Prerequisites
+## Prerequisitesway
 
 - `ocaml`
 - `dune`
 
-## Build and Run
+## Buildway anday Unray
 
-1. Navigate to the `hiringShifts` directory.
-2. Build the program.
-3. Run the executable.
-4. Enter the input through standard input.
+1. Openway away erminaltay anday avigatenay otay ethay `hiringShifts` irectoryday.
+2. Unray `dune build hiringShifts.ml` otay uildbay ethay ogrampray.
+3. Unray `dune exec ./hiringShifts.exe` otay artstay ethay executableway.
+4. Enterway ethay inputway oughthray andardstay inputway afterway ethay ogrampray aitsway orfay inputway.
 
-```bash
-dune build hiringShifts.ml
-dune exec ./hiringShifts.exe
-```
-
-## Example Input and Output
-
-The program reads the example input from standard input and prints the corresponding minimum total cost and selected hiring durations.
-
-### Example Input
+## Sampleay Inputway
 
 ```text
 4
@@ -37,26 +28,26 @@ The program reads the example input from standard input and prints the correspon
 6
 ```
 
-### Example Output
+## Sampleay Outputway
 
 ```text
 15
 2 2
 ```
 
-## Input Format
+## Inputway Explanationway
 
-The first line gives the number of days to cover. Each following line lists the available hiring costs for starting on that day for durations of `1`, `2`, or `3` days when present.
+Ethay irstfay inelay givesay ethay numberway ofay aysday otay overcay. Eachway ollowingfay inelay givesay oneway otay eethray integerway ostscay orfay iringhay atay ethay artstay ofay atthay ayday orfay `1`, `2`, oray `3` aysday.
 
-Shorter rows indicate fewer available durations near the end of the schedule.
+Ortershay owsray indicateway ewerfay availableway urationsday earnay ethay endway ofay ethay schedulesay.
 
-In the example, `5 8 16` means that day `1` includes costs of `5`, `8`, and `16` for hiring durations of `1`, `2`, and `3` days.
+Inway ethay exampleway, `5 8 16` eansmay atthay ayday `1` ashay ostscay ofay `5`, `8`, anday `16` orfay iringhay urationsday ofay `1`, `2`, anday `3` aysday. Ethay owsray escribeday ethay artingstay ayday, anday ethay olumnscay escribeday ethay iringhay urationday.
 
-## Output Format
+## Outputway Explanationway
 
-The first line is the minimum total cost. The second line lists the chosen hiring durations for the selected starting days.
+Ethay irstfay inelay ofay outputway isway ethay minimumway otaltay ostcay. Ethay econdsay inelay istslay ethay osenchay iringhay urationsday orfay ethay electedsay artingstay aysday.
 
-In the example, `2 2` represents hiring on day `1` for `2` days and on day `3` for `2` days.
+Inway ethay exampleway, `2 2` eansmay ethay olutionsay ireshay onway ayday `1` orfay `2` aysday anday onway ayday `3` orfay `2` aysday, orfay away otaltay ostcay ofay `15`.
 
 
 
