@@ -51,4 +51,4 @@ In the example output, `2 2` means the program chooses a 2 day shift starting on
 
 ## Algorithm notes
 
-The program uses a dynamic programming approach. It considers shift lengths from 1 day to 3 days and runs in `O(n)` time.
+The program uses a dynamic programming approach to compare costs across available shift lengths. It considers shift lengths from 1 day to 3 days and runs in `O(n)` time.
