@@ -1,22 +1,22 @@
-# Anay OCaml ynamicday ogrammingpray olutionsay orfay ethay iringhay iftsshay oblempray
+# OCaml Dynamic Programming Solution for the Hiring Shifts Problem
 
 ## Overview
 
-Isthay ojectpray overscay an OCaml ogrampray atthay indsֆay ethay owestlay ostcay to overcay a anningplay orizonhay ithway iringhay urationsday atthay anspay 1 otay 3 aysday. Ithay uildsbay `hiringShifts` ithway `dune` and omputescay ethay esultray in `O(n)` imetay.
+This project provides an OCaml program that finds the lowest hiring cost across a planning horizon with hiring durations from 1 to 3 days. The program builds the `hiringShifts` executable with `dune`, reads from standard input, and computes the result in `O(n)` time.
 
 ## Prerequisites
 
-- `OCaml` ustmay ebay installed.
-- `dune` ustmay ebay available otay uildbay and unray ethay ojectpray.
+- `OCaml` must be installed.
+- `dune` must be available to build and run the project.
 
 ## Build and run instructions
 
-Opeay ethay ojectpray irectoryday, uildbay ethay ogrampray, and enthay unray itay. Ethay ogrampray eadsray omfray andardstay input.
+Open the project directory, build the program, and then run it. The program reads input from standard input.
 
-1. Avigatenay otay ethay `hiringShifts` irectoryday.
-2. Executeway `dune build`.
-3. Executeway `dune exec ./hiringShifts.exe`.
-4. Enteray ethay input aluesvay.
+1. Navigate to the `hiringShifts` directory.
+2. Run `dune build`.
+3. Run `dune exec ./hiringShifts.exe`.
+4. Enter the input values.
 
 ```sh
 dune build
@@ -42,20 +42,20 @@ dune exec ./hiringShifts.exe
 
 ## Input format
 
-Ethay irstfay inelay ontainscay `n`, ethay umbernay ofay aysday atthay eednay overagecay. Iringhay urationsday anscay anspay omfray 1 ayday otay 3 aysday.
+The first line contains `n`, the number of days that need coverage. Hiring durations can span from 1 day to 3 days.
 
-Eachay ofay ethay extnay `n` ineslay orrespondscay otay oneyay ayday. Eachay aluevay in a owray isay ethay iringhay ostcay orfay a urationday atingstray onay atthay ayday. Ethay irstfay aluevay overscay 1 ayday, ethay econdsay aluevay overscay 2 aysday, and ethay irdthay aluevay overscay 3 aysday. Owsray earnay ethay enday ofay ethay anningplay orizonhay istlay onlyay ethay urationsday atthay emainray alidvay.
+Each of the next `n` lines corresponds to one day. Each value in a row gives the hiring cost for a duration that starts on that day. The first value covers 1 day, the second value covers 2 days, and the third value covers 3 days. Shorter rows near the end of the planning horizon list only the durations that remain valid.
 
-Orfay example, ethay irstfay owray `5 8 16` eansmay atthay artingstay onay ayday 1, iringhay orfay 1 ayday ostscay `5`, iringhay orfay 2 aysday ostscay `8`, and iringhay orfay 3 aysday ostscay `16`. Ethay owray `6` eansmay atthay ethay inalfay ayday ashay onlyay oneyay alidvay optionay emainingray: a 1 ayday iringhay ithway ostcay `6`.
+For example, the first row `5 8 16` means that starting on day 1, hiring for 1 day costs `5`, hiring for 2 days costs `8`, and hiring for 3 days costs `16`. The row `6` means that the final day has only one valid remaining option: hiring for 1 day at a cost of `6`.
 
 ## Output format
 
-Ethay irstfay inelay ofay output isay ethay inimummay otaltay iringhay ostcay. Ethay econdsay inelay istslay ethay electedsay iringhay urationsday in orderay.
+The first line of output is the minimum total hiring cost. The second line lists the selected hiring durations in order.
 
-Inay ethay example output, `2 2` eansmay ethay olutionsay ireshay orfay 2 aysday artingstay onay ayday 1 atay ostcay `8`, enthay ireshay againay orfay 2 aysday artingstay onay ayday 3 atay ostcay `7`, orfay a otaltay ostcay ofay `15`.
+In the example output, `2 2` means the solution hires for 2 days starting on day 1 at a cost of `8`, then hires again for 2 days starting on day 3 at a cost of `7`, for a total cost of `15`.
 
 ## Algorithm notes
 
-Ethay algorithmay usesay ynamicday ogrammingpray otay evaluatay ethay owestlay ostcay overagecay acrossay `n` aysday. Ithay unsray in `O(n)` imetay becauseay ithay onsiderscay eachay ayday and eachay alidvay urationday onceay.
+The algorithm uses dynamic programming to evaluate the lowest cost coverage across `n` days. It runs in `O(n)` time because it considers each day and each valid duration once.
 
 
