@@ -48,3 +48,7 @@ The program prints the minimum total cost on the first line.
 The program prints the sequence of chosen shift lengths on the second line.
 
 In the example output, `2 2` means the program chooses a 2 day shift starting on day 1 and a 2 day shift starting on day 3, for a total cost of `15`.
+
+## Algorithm notes
+
+The program uses a dynamic programming approach. It considers shift lengths from 1 day to 3 days and runs in `O(n)` time.
