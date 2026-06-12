@@ -1,17 +1,31 @@
-# Hiring Shifts
+# A Dynamic Programming Implementation of a Hiring Shifts Problem
 
-This repository contains an OCaml dynamic programming solution to a hiring shifts problem.
+This repository contains an OCaml implementation of the hiring shifts problem. The program calculates the minimum total hiring cost across the required days.
 
 ## Prerequisites
 
-- Install OCaml.
+- OCaml
+- Dune
 
 ## Build and Run
 
-1. Open a terminal and change to the `hiringShifts` directory.
-2. Run `dune build`.
-3. Run `dune exec ./hiringShifts.exe`.
-4. Enter input through standard input.
+1. Build the project:
+
+   ```sh
+   dune build hiringShifts.ml
+   ```
+
+2. Run the executable:
+
+   ```sh
+   dune exec ./hiringShifts.exe
+   ```
+
+3. Enter the example input or another valid input after the program starts.
+
+## Algorithm Summary
+
+The algorithm runs in `O(n)` time, where `n` is the number of days that require coverage. It selects hires that cover from one to three days.
 
 ## Example Input
 
@@ -30,14 +44,16 @@ This repository contains an OCaml dynamic programming solution to a hiring shift
 2 2
 ```
 
-## Input Format
+## Input Explanation
 
-The first line gives the number of days. Each following row gives the hiring costs for 1 day, 2 day, or 3 day hires that start on that day. Shorter rows conceptually pad the remaining positions with unavailable options.
+The first input line is `n`. In this example, `n = 4`, so the business needs coverage for four days.
 
-The columns represent hire durations, and each row represents a starting day. For example, `5` gives the cost of a 1 day hire that starts on day 1, and `16` gives the cost of a 3 day hire that starts on day 1.
+Each of the next `n` rows lists hiring costs for shifts that start on that day. The first value gives the cost of a one day hire, the second value gives the cost of a two day hire, and the third value gives the cost of a three day hire. Shorter rows indicate that fewer hire durations are available for that day.
 
-## Output Format
+For example, the first row `5 8 16` states that a hire starting on day 1 costs `5` for one day, `8` for two days, or `16` for three days. The row `6` shows that the final day offers only a one day hire at a cost of `6`.
 
-The first output line gives the minimum total cost. The second line lists the chosen hire durations in order.
+## Output Explanation
 
-In the example output, `2 2` means the solution selects a 2 day hire starting on day 1 and a 2 day hire starting on day 3, for a total cost of `15`.
+The first output line gives the minimum total hiring cost. In this example, that value is `15`. The second output line lists the selected hire durations in order.
+
+The sample output `2 2` means the solution hires one worker on day 1 for two days at a cost of `8`, then hires another worker on day 3 for two days at a cost of `7`, for a total cost of `15`.
