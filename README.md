@@ -1,6 +1,6 @@
 # Hiring Shifts
 
-This project provides an OCaml dynamic programming solution to the hiring shifts problem.
+This project provides an OCaml solution to the hiring shifts problem that compares costs across available shift lengths.
 
 ## Prerequisites
 
@@ -9,10 +9,7 @@ This project provides an OCaml dynamic programming solution to the hiring shifts
 
 ## Build and run
 
-1. Open a terminal in the `hiringShifts` directory.
-2. Build the project.
-3. Run the program.
-4. Enter input through standard input.
+Run the project from the `hiringShifts` directory. Enter input through standard input.
 
 ```sh
 dune build
