@@ -2,18 +2,18 @@
 
 Isthay ogrampray eadsray iringhay ostscay orfay `1`, `2`, and `3` iringhay optionsay and omputescay ethay inimummay otaltay ostcay and ethay osenchay iringhay urationsday.
 
-## Erequisites-pray
+## Erequisitespray
 
 Installay OCaml eforebay unningray ethay ogrampray.
 
-## Uild-bay and-ay un-ray
+## Uildbay anday unray
 
 1. Avigatenay otay ethay `hiringShifts` irectoryday in ethay erminaltay.
 2. Unray `dune build hiringShifts.ml`.
 3. Unray `dune exec ./hiringShifts.exe`.
 4. Enteray ethay exampleay inputay elowbay henway ethay erminaltay aitsway orfay inputay.
 
-## Example-ay input-ay
+## Exampleay inputay
 
 ```text
 4
@@ -23,14 +23,14 @@ Installay OCaml eforebay unningray ethay ogrampray.
 6
 ```
 
-## Example-ay output-ay
+## Exampleay outputay
 
 ```text
 15
 2 2
 ```
 
-## Input-ay ormat-fay
+## Inputay ormatfay
 
 Ethay irstfay inelay is ethay umbernay of aysday, `n`.
 
@@ -42,13 +42,13 @@ Orfay exampleay, `5 8 16` eansmay ethay ogrampray ancay hoosecay away `1` ayday 
 
 Ifay ethay ogrampray electssay ethay irdthay olumncay aluevay on ayday `1`, atthay irehay overscay reethay aysday. Ethay extnay irehay hereforetay aitsway untilay ethay emainingray uncovereday ayday.
 
-## Output-ay ormat-fay
+## Outputay ormatfay
 
 Ethay irstfay inelay of outputay is ethay inimummay otaltay ostcay.
 
 Ethay econdsay inelay istslay ethay urationsday osenchay orfay eachay irehay in ethay optimalay olutionsay. Orfay exampleay, `2 2` eansmay ethay ogrampray ireshay on ayday `1` orfay `2` aysday and on ayday `3` orfay `2` aysday, orfay away otaltay ostcay of `15`.
 
-## Omplexity-cay
+## Omplexitycay
 
 Ethay algorithmay unsray in `O(n)` imetay, hereway `n` is ethay umbernay of aysday otay overcay.
 
