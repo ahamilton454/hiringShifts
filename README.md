@@ -1,54 +1,55 @@
-# A Dynamic Programming Implementation of a Hiring Shifts Problem
-Note: Before testing out this project please ensure you have ocaml correctly installed
+# Aynamic-day Ogramming-pray Olution-say or-fay ethay Iring-hay Ifts-shay Oblem-pray
 
-1. Enter your terminal and navigate to the hiringShifts directory
-2. run dune build hiringShifts.ml (Generates the _build folder)
-3. run dune exec ./hiringShifts.exe
-4. You should now see that the terminal is waiting to accept stdin, 
-expected example input and output is below in the readme. Copy paste the 
-input into your terminal<br />
+Isthay ogram-pray eads-ray iring-hay osts-cay or-fay `1`-ay, `2`-ay, and `3`-ay iring-hay options-ay and omputes-cay ethay inimum-may otal-tay ost-cay and ethay osen-chay iring-hay urations-day.
 
-The time complexity for the algorithm is O(n) where n is the number 
-of days for which we must hire employees. We can hire employees for a
-minimum of one day and a maximum of three.<br /><br />
+## Erequisites-pray
 
-**Input**<br />
-4<br />
-5 8 16<br />
-4 12 18<br />
-3 7<br />
-6<br />
+OCaml ust-may ebay installed-ay efore-bay unning-ray ethay ogram-pray.
 
-**Output**<br />
-15<br />
-2 2<br />
+## Uild-bay and-ay un-ray
 
-## Input Explanation
-The first input line is n, in our example case above (n=4).  This is the number
-of day that we need to cover for the business with employees.  Remeber that
-we can hire an employee for a minimum of one day and a maximum of three. 
-Otherwise, we simply ignore those we choose not to hire.
+1. Avigate-nay otay ethay `hiringShifts` irectory-day in-ay ethay erminal-tay.
+2. Un-ray `dune build hiringShifts.ml`.
+3. Un-ray `dune exec ./hiringShifts.exe`.
+4. Enter-ay ethay example-ay input-ay elow-bay hen-way ethay erminal-tay aits-way or-fay standard-ay input-ay.
 
-The following n lines:
-5 8 16<br />
-4 12 18<br />
-3 7<br />
-6<br />
-These lines denote the employee and cost to hire the employee.  For example,
-the first line first integer is 5 meaning that we can hire 1 employee for 1 day
-and it will cost us 5.  The columns represent the number of days for which an
-employee is hired, and each row represent a day.  As a second example, lets say
-that we chose the 16 (in the first row last column).  We know 16 works for a
-3 days because they reside in the third column.  Therefore we do not need to
-hire anyone else until the final day, where we only have one option, 
-6 (row n column 1). 
+## Example-ay input-ay
 
-## Output Explanation
-The first line of output, in our example case 15, is the total cost for hiring
-the optimal (lowest cost) employee/s.
+```text
+4
+5 8 16
+4 12 18
+3 7
+6
+```
 
-The second line indicates which employees we hired.  Our example outputs 2 2
-meaning we hired an employee on day 1 to work for 2 days (cost 8) and an
-employee on day 3 to work for 2 days (cost 7) for a total cost of 15.
+## Example-ay output-ay
+
+```text
+15
+2 2
+```
+
+## Input-ay ormat-fay
+
+Ethay irst-fay inelay is-ay ethay umber-nay of-ay ays-day, `n`.
+
+- Each-ay of-ay ethay ext-nay `n` ines-lay orresponds-cay otay away tarting-say ay-day.
+- Ethay irst-fay, econd-say, and-ay ird-thay alues-vay on-ay away inelay epresent-ray ethay osts-cay of-ay iring-hay or-fay `1`-ay, `2`-ay, and `3`-ay ays-day hen-way ose-thay options-ay are-ay available-ay.
+- Ater-lay ows-raysay ancay ave-hay ewer-fay alues-vay hen-way onger-lay iring-hay urations-day are-ay onger-lay ossible-pay.
+
+Or-fay example-ay, `5 8 16` eans-may ethay ogram-pray ancay hoose-cay away `1`-ay ay-day ire-hay or-fay `5`, away `2`-ay ay-day ire-hay or-fay `8`, or-ay away `3`-ay ay-day ire-hay or-fay `16`.
+
+If-ay ethay ogram-pray elects-say ethay ird-thay olumn-cay alue-vay on-ay ay-day `1`, at-thay irehay overs-cay ree-thay ays-day. Ethay ext-nay irehay herefore-tay aits-way until-ay ethay emaining-ray uncovered-ay ay-day.
+
+## Output-ay ormat-fay
+
+Ethay irst-fay inelay of-ay output-ay is-ay ethay inimum-may otal-tay ost-cay.
+
+Ethay econd-say inelay ists-lay ethay urations-day osen-chay or-fay each-ay irehay in-ay ethay optimal-ay olution-say. Or-fay example-ay, `2 2` eans-may ethay ogram-pray ires-hay on-ay ay-day `1` or-fay `2` ays-day and-ay on-ay ay-day `3` or-fay `2` ays-day, or-fay away otal-tay ost-cay of-ay `15`.
+
+## Omplexity-cay
+
+Ethay algorithm-ay uns-ray in-ay `O(n)` ime-tay, here-way `n` is-ay ethay umber-nay of-ay ays-day otay over-cay.
 
 
