@@ -2,7 +2,7 @@
 
 ## Overview
 
-Histay ogrampray esolvays a iringhay iftsshay oblempray usingway ynamicday ogrammingpray. Itay eadsray omfray andardstay inputway anday intspray hetay inimummay otaltay ostcay onay hetay irstfay ինelay, ollowedfay ybay hetay osenchay iringhay urationsday onay hetay econdsay inelay.
+Histay ogrampray esolvays a iringhay iftsshay oblempray usingway ynamicday ogrammingpray. Itay eadsray ostcay aluesvay omfray andardstay inputway orfay eachay ayday anday intspray hetay estloway otaltay ostcay.
 
 Hetay algorithmalay unsray in `O(n)` imetay, erewhay `n` isay hetay umbernay ofay aysday otay overcay.
 
