@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project provides an OCaml program that finds the lowest hiring cost across a planning horizon with hiring durations from 1 to 3 days. The program builds the `hiringShifts` executable with `dune`, reads from standard input, and computes the result in `O(n)` time.
+This project provides an OCaml program that finds the lowest hiring cost across a planning horizon with hiring durations from 1 to 3 days. The program builds the `hiringShifts` executable with `dune` and computes the result in `O(n)` time.
 
 ## Prerequisites
 
