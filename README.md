@@ -1,6 +1,6 @@
 # A Dynamic Programming Solution for the Hiring Shifts Problem
 
-This program reads hiring costs for `1`, `2`, and `3` day hiring options and computes the minimum total cost and the chosen hiring durations.
+This program reads hiring costs for `1`, `2`, and `3` day hiring options and calculates the minimum total cost and the chosen hiring durations.
 
 ## Prerequisites
 
