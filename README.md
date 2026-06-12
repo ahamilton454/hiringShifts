@@ -1,24 +1,24 @@
-# Aynamicday Ogrammingpray Implementationway ofay away Iringhay Iftsshay Oblempray
+# A Dynamic Programming Implementation of a Hiring Shifts Problem
 
-## Overviewway
+## Overview
 
-Isthay ojectpray containsay anway OCamlay ynamicday ogrammingpray implementationway ofay ethay iringhay iftsshay oblempray. Ethay ogrampray calculatesay ethay minimumway otaltay iringhay ostcay neededay otay overcay away etsay ofay aysday inway `O(n)` imetay, erewhay `n` isway ethay numberway ofay aysday.
+This project contains an OCaml dynamic programming implementation of the hiring shifts problem. The program calculates the minimum total hiring cost needed to cover a set of days in `O(n)` time, where `n` is the number of days.
 
-Iringhay urationsday rangeay omfray `1` otay `3` aysday.
+Hiring durations range from `1` to `3` days.
 
-## Prerequisitesway
+## Prerequisites
 
 - `ocaml`
 - `dune`
 
-## Owhay otay Uildbay anday Unray
+## Build and Run
 
-1. Openway away erminaltay anday avigatenay otay ethay `hiringShifts` irectoryday.
-2. Unray `dune build hiringShifts.ml` otay uildbay ethay ogrampray.
-3. Unray `dune exec ./hiringShifts.exe` otay artstay ethay executableway.
-4. Enterway ethay inputway oughthray andardstay inputway afterway ethay ogrampray aitsway orfay inputway.
+1. Open a terminal and navigate to the `hiringShifts` directory.
+2. Run `dune build hiringShifts.ml` to build the program.
+3. Run `dune exec ./hiringShifts.exe` to start the executable.
+4. Enter the input through standard input after the program waits for input.
 
-## Exampleway Inputway
+## Example Input
 
 ```text
 4
@@ -28,26 +28,26 @@ Iringhay urationsday rangeay omfray `1` otay `3` aysday.
 6
 ```
 
-## Exampleway Outputway
+## Example Output
 
 ```text
 15
 2 2
 ```
 
-## Inputway Explanationway
+## Input Explanation
 
-Ethay irstfay inelay givesay ethay numberway ofay aysday otay overcay. Eachway ollowingfay inelay givesay oneway otay eethray integerway ostscay orfay iringhay atay ethay artstay ofay atthay ayday orfay `1`, `2`, oray `3` aysday.
+The first line gives the number of days to cover. Each following line gives one to three integer costs for hiring at the start of that day for `1`, `2`, or `3` days.
 
-Ortershay owsray indicateway ewerfay availableway urationsday earnay ethay endway ofay ethay schedulesay.
+Shorter rows indicate fewer available durations near the end of the schedule.
 
-Inway ethay exampleway, `5 8 16` eansmay atthay ayday `1` ashay ostscay ofay `5`, `8`, anday `16` orfay iringhay urationsday ofay `1`, `2`, anday `3` aysday. Ethay owsray escribeday ethay artingstay ayday, anday ethay olumnscay escribeday ethay iringhay urationday.
+In the example, `5 8 16` means that day `1` has costs of `5`, `8`, and `16` for hiring durations of `1`, `2`, and `3` days. The rows describe the starting day, and the columns describe the hiring duration.
 
-## Outputway Explanationway
+## Output Explanation
 
-Ethay irstfay inelay ofay outputway isway ethay minimumway otaltay ostcay. Ethay econdsay inelay istslay ethay osenchay iringhay urationsday orfay ethay electedsay artingstay aysday.
+The first line of output is the minimum total cost. The second line lists the chosen hiring durations for the selected starting days.
 
-Inway ethay exampleway, `2 2` eansmay ethay olutionsay ireshay onway ayday `1` orfay `2` aysday anday onway ayday `3` orfay `2` aysday, orfay away otaltay ostcay ofay `15`.
+In the example, `2 2` means the solution hires on day `1` for `2` days and on day `3` for `2` days, for a total cost of `15`.
 
 
 
